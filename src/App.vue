@@ -6,6 +6,8 @@ import AttributeBindingsVue from "./components/AttributeBindings.vue";
 import EventListeners from "./components/EventListeners.vue";
 import FormBindingsVue from "./components/FormBindings.vue";
 import ContitionalRendering from "./components/ConditionalRendering.vue";
+import ListRendering from "./components/ListRendering.vue";
+import Computed from "./components/Computed.vue";
 </script>
 
 <template>
@@ -13,7 +15,9 @@ import ContitionalRendering from "./components/ConditionalRendering.vue";
   <!-- <AttributeBindingsVue /> -->
   <!-- <EventListeners /> -->
   <!-- <FormBindingsVue /> -->
-  <ContitionalRendering />
+  <!-- <ContitionalRendering /> -->
+  <!-- <ListRendering /> -->
+  <Computed />
 </template>
 
 <style>
