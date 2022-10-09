@@ -23,6 +23,14 @@ function addTodo() {
 function removeTodo(todo) {
   todos.value = todos.value.filter((t) => t !== todo);
 }
+
+defineExpose({
+  id,
+  newTodo,
+  todos,
+  filteredTodos,
+  addTodo,
+});
 </script>
 
 <template>
